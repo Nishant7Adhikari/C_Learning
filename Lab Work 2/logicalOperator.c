@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(){
+    int p = 1, q = 0;
+    printf("p = %d, q = %d\n", p, q);
+    printf("p && q = %d\n", p && q);
+    printf("p || q = %d\n", p || q);
+    printf("!p = %d\n", !p);
+    printf("!q = %d\n", !q);
+    return 0;
+}
