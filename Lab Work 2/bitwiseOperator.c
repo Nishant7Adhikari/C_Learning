@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main()
 {
-    int a=5,b=7;
-    printf("Bitwise AND : (a&b) %d\n",a&b);
-    printf("Bitwise OR : (a|b) %d\n",a|b);
-    printf("Bitwise XOR : (a^b) %d\n",a^b);
-    printf("Bitwise NOT : ~(a) %d\n",~a);
-    printf("Bitwise Left Shift : (a<<1) %d\n",a<<1);
-    printf("Bitwise Right Shift : (a>>1) %d\n",a>>1);
+    int m = 11, n = 10;
+    printf("m & = %d\n",m&n);
+    printf("m | n = %d\n",m|n);
+    printf("m ^ n = %d\n",m^n);
+    printf("~m = %d\n",~m);
+    printf("m << 2 = %d\n",m<<2);
+    printf("n >> 1 = %d\n",n>>1);
     return 0;
 }

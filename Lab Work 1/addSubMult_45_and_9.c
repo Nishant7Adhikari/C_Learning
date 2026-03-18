@@ -9,4 +9,5 @@ int main(){
     printf("%d + %d = %d\n",number1, number2, add);
     printf("%d - %d = %d\n",number1, number2, subtract);
     printf("%d x %d = %d\n",number1, number2, multiply);
+    return 0;
 }

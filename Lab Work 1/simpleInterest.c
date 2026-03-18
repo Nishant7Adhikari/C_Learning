@@ -4,6 +4,9 @@ int main(){
     int rate = 7.5;
     float time = 2.0;
     float interest = (principle * rate * time) / 100;
-    printf("The simple interest is %.2f", interest);
+    printf("Principle: 800000\n");
+    printf("Rate: 7.5\n");
+    printf("Time: 2\n");
+    printf("The simple interest: %.2f", interest);
     return 0;
 }

@@ -14,5 +14,4 @@ int main(){
 	
 	fact = factorialOf(n);
 	printf("Factorial of %d is %d\n",n,fact);
-	main();
 }

@@ -8,8 +8,7 @@ int main()
     printf("Enter the elements of array: ");
     for(i=0;i<n;i++)
     {
-        printf("Enter the %d element: ");
-        scanf("%d",&arr[i]);
+        scanf(" %d",&arr[i]);
     }
     max=arr[0];
     for(i=0;i<n;i++)

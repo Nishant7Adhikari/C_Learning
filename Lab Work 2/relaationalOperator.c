@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main(){
-    int x = 15, y = 10;
-    printf("x > y : %d\n", x > y);
-    printf("x < y : %d\n", x < y);
-    printf("x == y : %d\n", x == y);
-    printf("x != y : %d\n", x != y);
-    printf("x >= y : %d\n", x >= y);
-    printf("x <= y : %d\n", x <= y);
+    int a = 10, b = 5;
+    printf("%d\t>\t%d\t:\t%d\n",a, b,  a > b);
+    printf("%d\t<\t%d\t:\t%d\n",a, b,  a < b);
+    printf("%d\t==\t%d\t:\t%d\n",a, b,  a == b);
+    printf("%d\t<=\t%d\t:\t%d\n",a, b,  a <= b);
+    printf("%d\t>=\t%d\t:\t%d\n",a, b,  a >= b);
+    printf("%d\t!=\t%d\t:\t%d\n",a, b,  a != b);
     return 0;
 }

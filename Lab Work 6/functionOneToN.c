@@ -12,10 +12,5 @@ int main(){
 	
 	oneToN(n);
 	
-	int fun(){
-		printf("Hello");
-	}
-	fun();
-	
 	return 0;
 }

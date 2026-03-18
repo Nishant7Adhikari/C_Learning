@@ -5,8 +5,8 @@ int main()
 
     printf("Enter a number: ");
     scanf("%d", &n);
-
-    for(int i = 1; i <= n; i++)
+	int i;
+    for(i = 1; i <= n; i++)
     sum += i;
 
     printf("Sum of first %d natural numbers is %d", n, sum);

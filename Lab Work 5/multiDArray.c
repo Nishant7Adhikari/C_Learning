@@ -5,13 +5,10 @@ int main(){
     int multiD[row][col];
     int i,j;
 
-    printf("\nSTART\n");
-
     // input
-
+	printf("Enter the elements for the %d x %d Matrix\n:",row,col);
     for(i = 0; i<row; i++){
         for(j = 0;j < col; j++){
-            printf("Input for [%d][%d]: ", i, j);
             scanf(" %d", &multiD[i][j]);
         }
     }
@@ -26,5 +23,4 @@ int main(){
         }
         printf("\n");
     }
-    printf("\nEND\n");
 }

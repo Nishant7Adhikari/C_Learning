@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
-    int a = 3, b = 6;
-    int max = (a>b)?a:b;;
-    printf("The maximum value is %d", max);
+    int a = 5, b = 2;
+    int max = (a > b) ? a : b;
+    printf("Maximum = %d", max);
     return 0;
 }
