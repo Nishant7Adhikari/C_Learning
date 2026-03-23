@@ -9,7 +9,7 @@ int main ()
     // init pointer
     int* ptr = &value;
 
-    printf("Value using pointer: %d\n", 8);
-    printf("Address using pointer: %p\n",ptr);
+    printf("Value using pointer: %d\n", *ptr);
+    printf("Address using pointer: %p\n", (void*)ptr);
     return 0;
 }

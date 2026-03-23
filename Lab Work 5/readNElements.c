@@ -19,6 +19,5 @@ int main()
     {
         printf("The element at index %d is %d\n", i, arr[i]);
     }
-    
     return 0;
 }
